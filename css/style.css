@@ -1182,9 +1182,9 @@
 		position: relative;
 		margin: 0;
 		background: url('../images/header.jpg');
-		background-size: 100% 100%;
+		background-size: cover;
 		background-position: center center;
-		padding: 25.4em 0 10.1em 0;
+		padding: 16.4em 0 10.1em 0;
 		text-align: center;
 		color: #fff;
 	}
