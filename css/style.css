@@ -48,7 +48,7 @@
 		.dark h5,
 		.dark h6
 		{
-			color: #fff;
+			color: #ppp;
 		}
 		
 	strong, b
@@ -1184,7 +1184,7 @@
 		background: url('../images/header.jpg');
 		background-size: 100% 100%;
 		background-position: center center;
-		padding: 16.8em 0 16.8em 0;
+		padding: 25.4em 0 10.1em 0;
 		text-align: center;
 		color: #fff;
 	}
