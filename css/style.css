@@ -586,6 +586,26 @@
 	
 	/* Buttons */
 		
+		.buttonX
+		{
+			-webkit-appearance: none;
+			position: relative;
+			display: inline-block;
+			background: #3d3d3d;
+		/**padding: 0.85em 3em 0.85em 3em;**/
+			border-radius: 0.25em;
+			cursor: pointer;
+			border: 0;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+			-moz-transition: all 0.25s ease-in-out;
+			-webkit-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+		}
+		
 		.button
 		{
 			-webkit-appearance: none;
@@ -1162,9 +1182,9 @@
 		position: relative;
 		margin: 0;
 		background: url('../images/header.jpg');
-		background-size: cover;
+		background-size: 100% 100%;
 		background-position: center center;
-		padding: 14em 0 14em 0;
+		padding: 16.8em 0 16.8em 0;
 		text-align: center;
 		color: #fff;
 	}
@@ -1195,6 +1215,7 @@
 		
 			#header header h1
 			{
+				padding: 14em 0 14em 0; 
 				font-size: 2.25em;
 				line-height: 1.25em;
 				margin-bottom: 0;
@@ -1228,7 +1249,7 @@
 		{
 			background: #fff;
 			text-align: center;
-			padding: 5em 0 5em 0;
+			padding: 1.5em 0 1.5em 0;
 			margin: 0;
 		}
 		
@@ -1262,32 +1283,34 @@
 
 			.main > .content.dark
 			{
-				background: #433;
+				
 			}
 			
 			.main > .content.style1
 			{
-				background:	url('images/bgtr.svg') top right no-repeat,
+				/*background:	url('images/bgtr.svg') top right no-repeat,
 							url('images/bgbl.svg') bottom left no-repeat,
 							url('images/bgbl.svg') bottom left no-repeat,
 							url('images/overlay.png'),
-							linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+							linear-gradient(45deg, #b39c68, #a56365, #412e4c);*/
+							background: #589;
 			}
 
 			.main > .content.style2
 			{
-				background:	url('images/bgtr.svg') top right no-repeat,
+				/*background:	url('images/bgtr.svg') top right no-repeat,
 							url('images/bgbl.svg') bottom left no-repeat,
 							url('images/overlay.png'),
-							linear-gradient(45deg, #384955, #655361, #85505f);
+							linear-gradient(45deg, #384955, #655361, #85505f);*/
+							background: #133;
 			}
 
 			.main > .content.style3
 			{
-				background:	url('images/bgtr.svg') top right no-repeat,
+				/*background:	url('images/bgtr.svg') top right no-repeat,
 							url('images/bgbl.svg') bottom left no-repeat,
 							url('images/overlay.png'),
-							linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+							linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);*/
 			}
 
 			.main > .content.style4
