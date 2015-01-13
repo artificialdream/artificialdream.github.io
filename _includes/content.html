@@ -1,0 +1,25 @@
+<content class="site-content">
+
+<div class="content">
+
+<div class="logo"> Synthetica Lab </div>
+
+<div class="games"> games aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br> </div>
+
+<div class="list-articles"> 
+
+	<ul>
+	  
+	  {% for post in site.posts %}
+	    <li>
+	      <a href="{{ post.url }}">{{ post.date | date_to_string}} {{ post.title }}</a>
+	    </li>
+	  {% endfor %}
+
+	</ul>
+
+ </div>
+ 
+</div>
+
+</content>

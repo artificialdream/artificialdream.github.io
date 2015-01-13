@@ -1,0 +1,219 @@
+/**
+ * Site header
+ */
+.site-header {
+
+/*    border: green solid 2px; */ 
+
+    min-height: 56px;
+    height: 300px;
+ 
+    max-width: 960px;
+    margin: 0 auto;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.pages {
+
+    color: 808d8e;
+/*  float: right; */
+
+}
+
+.link-pages {
+
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    word-spacing: 50px;
+
+
+}
+
+
+
+/**
+* site content
+*/
+@media screen and (min-width:600px) {  /* responsive command */
+.content {
+
+  /*  border: green 5px solid; */
+
+    margin: 0 auto;
+    max-width: $content-width;
+
+    position: relative;
+
+    background-image: url("http://192.168.56.101:4000/_image/background_image.JPG");
+}
+
+
+
+    .logo {
+        
+        
+        width: 350px;
+        height: 75px;
+        top: 1px;
+
+        border-bottom: grey 2px solid;
+       
+    /* border don't increase width */ 
+
+    -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+
+        
+    }
+
+    .games {
+
+       position: absolute;
+       left: 350px;
+       top: 1px;
+        
+        border-left: grey 2px solid;
+
+        width: 0 auto;
+
+        -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+       
+    }
+
+    .list-articles {
+
+        position:  relative;
+        max-width: 350px;
+        top: 10px;
+
+        border-right: grey 2px solid;
+
+        overflow: auto; /* insert the scroll if the div it's bigger then content */
+
+        /* I comment this part, cause I want the grey border
+         go over the games left border 
+
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box; */  
+
+    }
+
+}
+/**
+ * Site footer
+ */
+
+
+.footer {
+
+    clear: both;
+    position: center;
+}
+
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
