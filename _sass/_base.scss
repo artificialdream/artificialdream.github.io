@@ -22,6 +22,8 @@ body {
     color: $text-color;   
     background-image: url("/image/background_image.JPG");
     background-repeat: no-repeat;
+/*    background-size: 100% 100%; */
+    background-size: cover;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -33,7 +35,7 @@ border div
 
 div {
 
- /* border: $borderRed;  */     /* debug div position */
+/* border: $borderRed;  */     /* debug div position */
 
 }
 

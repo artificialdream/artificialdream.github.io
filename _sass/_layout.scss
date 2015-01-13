@@ -1,38 +1,41 @@
 /**
  * Site header
  */
-.site-header {
+@media screen and (min-width:400px) {
 
-/*    border: green solid 2px; */ 
+    .site-header {
 
-    min-height: 56px;
-    height: 300px;
- 
-    max-width: 960px;
-    margin: 0 auto;
+    /*    border: green solid 2px; */ 
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+        min-height: 56px;
+        height: 300px;
+     
+        max-width: 960px;
+        margin: 0 auto;
+
+        // Positioning context for the mobile navigation icon
+        position: relative;
+    }
+
+    .pages {
+
+        color: 808d8e;
+    /*  float: right; */
+
+    }
+
+    .link-pages {
+
+    /*    float: right; */
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        word-spacing: 50px;
+
+
+    }
+
 }
-
-.pages {
-
-    color: 808d8e;
-/*  float: right; */
-
-}
-
-.link-pages {
-
-    float: right;
-    margin-right: 50px;
-    margin-top: 50px;
-    word-spacing: 50px;
-
-
-}
-
-
 
 /**
 * site content
