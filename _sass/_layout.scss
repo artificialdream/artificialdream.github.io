@@ -59,11 +59,24 @@
         
         
         width: 350px;
-        height: 75px;
+        height: 0 auto;
         top: 1px;
 
         border-bottom: grey 2px solid;
        
+        > p {
+
+            margin-bottom:  30px;
+            font-family: $base-font-family;
+            color: #3A6B83;
+        }
+       
+       > img {
+
+            margin-right: 50px;
+            width: 90%;
+
+       }
     /* border don't increase width */ 
 
     -webkit-box-sizing: border-box;
@@ -73,11 +86,14 @@
         
     }
 
+
+    
+
     .games {
 
-       position: absolute;
-       left: 350px;
-       top: 1px;
+        position: absolute;
+        left: 350px;
+        top: 1px;
         
         border-left: grey 2px solid;
 
@@ -86,6 +102,13 @@
         -webkit-box-sizing: border-box;
          -moz-box-sizing: border-box;
               box-sizing: border-box;
+
+
+        > img {
+
+            width: auto;
+
+        }      
        
     }
 
@@ -109,6 +132,22 @@
     }
 
 }
+
+.text {
+
+    text-align: justify;
+    padding-left: 50px;
+
+
+}
+
+.page-content {
+
+
+    border-left: grey 2px solid;
+    
+}
+
 /**
  * Site footer
  */
