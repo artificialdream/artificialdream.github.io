@@ -48,7 +48,7 @@ permalink: games/heartbot/
  		</table>	
 
  		<br><br>
- 			<a class="pages" href="http://192.168.56.101:4000/"><img style="width: 250px" src="/image/logoSynthetica.png"></a>
+ 			<a class="pages" href="/"><img style="width: 250px" src="/image/logoSynthetica.png"></a>
  			
 
  	</div>
