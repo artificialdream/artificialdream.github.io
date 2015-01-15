@@ -1,0 +1,63 @@
+---
+layout: game
+permalink: games/heartbot/
+---
+
+
+
+<div class="game-content" style="background-image: url(/image/hb_bg.PNG);">
+
+<div class="game-wrapper" style="background-color: black;"> 
+
+	
+      
+ 	<img src="/image/Heartbot.PNG"> <br>
+
+ 	<p class="text-hb">
+		
+		HeartBot is a puzzle game with stealth and emotional mechanics, enhanced by a wonderful illustrated story.
+
+ 	</p>
+	
+ 	<div class="thumbnail">
+
+ 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen1.png"> </a> 
+ 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen2.png"> </a> <br> 
+
+ 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen3.png"> </a> 
+ 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen4.png"> </a> <br> 
+ 	</div>	
+
+ 	<div class="stores">
+
+ 		<table>
+ 			<tr>
+ 				<th><img class="logo-store-img" src="/image/Windows_store.png"></th>
+ 				<th><img class="logo-store-img" src="/image/Android_store.png"></th>
+ 				<th><img class="logo-store-img" src="/image/Apple_store.png"></th>	
+ 			</tr>	
+
+ 			<tr>
+ 				<th></th>
+ 				<th><span style="color:red">coming soon</span></th>
+ 				<th><span style="color:red">coming soon</span></th>
+ 			</tr>
+
+ 			
+ 		
+ 		</table>	
+
+ 		<br><br>
+ 			<a class="pages" href="http://192.168.56.101:4000/"><img style="width: 250px" src="/image/logoSynthetica.png"></a>
+ 			
+
+ 	</div>
+ 		
+</div>  
+
+
+</div>
+
+
+
+

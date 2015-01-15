@@ -50,7 +50,7 @@
 
     position: relative;
 
-    background-image: url("http://192.168.56.101:4000/_image/background_image.JPG");
+    
 }
 
 
@@ -97,21 +97,22 @@
         
         border-left: grey 2px solid;
 
-        width: 0 auto;
+        max-width: 350px;
+
+        /* width: 0 auto;  */
 
         -webkit-box-sizing: border-box;
          -moz-box-sizing: border-box;
-              box-sizing: border-box;
-
-
-        > img {
-
-            width: auto;
-
-        }      
+              box-sizing: border-box;  
        
     }
 
+.games img {
+
+        width: inherit;
+        margin: 0px 20px;
+
+}
     .list-articles {
 
         position:  relative;
@@ -138,6 +139,12 @@
     text-align: justify;
     padding-left: 50px;
 
+    > img {
+
+        max-width: 350px;
+        
+
+    }
 
 }
 
@@ -213,6 +220,76 @@
     font-size: 24px;
 }
 
+/**
+*games page
+*/
+
+.game-content {
+
+ /*   width: 100%;
+    height: 100%; */
+
+    min-height: 1080px;
+    overflow: hidden;
+ /*   border: red 2px solid; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.game-wrapper {
+
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: $content-width;
+
+    position: relative;
+
+}   
+
+
+.text-hb{
+
+    font-size: 100%;
+    color: #ffffff;
+    text-align: justify;
+    padding: 30px;
+
+}
+
+.thumbnail {
+
+   > a { > img {
+
+            width: 45%;
+            height: 45%;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            }
+        }    
+
+}
+
+.stores {
+
+    > table {
+
+        /*   border: red 1px solid; */
+
+        margin: 0 auto;
+
+    }
+
+}
+
+
+.logo-store-img{   /* images of store */
+
+    max-width: 150px;
+    margin: 10px;
+
+}
 
 
 /**
@@ -226,6 +303,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: #3A6B83;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -233,29 +311,10 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    
+    margin: 0 auto;
+    max-width: 700px;
 
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
+    border-left: grey 2px solid;
+/*    border: red 2px solid; */
 }

@@ -4,7 +4,11 @@ title: About
 permalink: /about/
 ---
 
+
+
 <p class="text">
+
+	<img src="/image/logoSynthetica.png"> <br><br>
 
 	We are brand new game company that focus on story driven games for mid-core mobile gamer. Our company vision is to create products characterized by awesome artworks and emotional mechanics. <br><br>
 
