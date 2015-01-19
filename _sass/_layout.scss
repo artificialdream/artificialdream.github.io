@@ -29,7 +29,7 @@
     /*    float: right; */
         position: absolute;
         right: 50px;
-        top: 50px;
+        top: 100px;
         word-spacing: 50px;
 
 
@@ -43,9 +43,11 @@
 @media screen and (min-width:600px) {  /* responsive command */
 .content {
 
-  /*  border: green 5px solid; */
+//    border: green 5px solid; 
 
     margin: 0 auto;
+    margin-bottom: 100px;
+
     max-width: $content-width;
 
     position: relative;
@@ -155,6 +157,37 @@
     
 }
 
+/* section of photo on the About page */  /* PHOTO FOUNDERS */ 
+
+.photo-founders {
+
+ 
+    /* margin: 0 auto; */
+    margin-left: 50px;
+    position: relative;
+//    border: green 5px solid; 
+
+    > div {
+
+    display: inline-block;
+
+   
+        max-width: 200px;
+        text-align: center;
+        color: #3A6B83;
+        font-size: 20px;
+
+    }
+
+
+    > h1 {
+
+        text-align: center;
+        color: #3A6B83;
+    }
+}
+
+
 /**
  * Site footer
  */
@@ -244,6 +277,8 @@
     margin-top: 100px;
     max-width: $content-width;
 
+    text-align: center;
+
     position: relative;
 
 }   
@@ -251,10 +286,16 @@
 
 .text-hb{
 
-    font-size: 100%;
+    font-family: WashingtonD;
+    font-size: 45px;
     color: #ffffff;
-    text-align: justify;
+    text-align: center;
     padding: 30px;
+
+    > span {
+
+        font-size: 25px;
+    }
 
 }
 
@@ -264,7 +305,7 @@
 
             width: 45%;
             height: 45%;
-            margin-left: 20px;
+            margin-left: 10px;
             margin-bottom: 20px;
             }
         }    
@@ -291,6 +332,10 @@
 
 }
 
+.dev-button {
+
+    max-width: 250px;
+}
 
 /**
  * Posts
@@ -300,10 +345,11 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 32px;
     letter-spacing: -1px;
     line-height: 1;
     color: #3A6B83;
+    font-family: $base-font-family;
 
     @include media-query($on-laptop) {
         font-size: 36px;

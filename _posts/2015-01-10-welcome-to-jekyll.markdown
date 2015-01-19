@@ -6,4 +6,6 @@ categories: jekyll update
 ---
 
 
-The Synthetica Web site is ONLINE!
+The Synthetica Web  site is  ONLINE!   
+
+HELLO WORLD!
