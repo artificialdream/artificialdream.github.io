@@ -29,7 +29,7 @@ permalink: games/heartbot/
 	
  	<div class="thumbnail">
 
- 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen1.png"> </a> 
+ 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen1_thumb.png"> </a> 
  		<a href="/image/HB_screen2.png"> <img src="/image/HB_screen2.png"> </a> <br> 
 
  		<a href="/image/HB_screen3.png"> <img src="/image/HB_screen3.png"> </a> 
