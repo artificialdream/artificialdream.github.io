@@ -5,7 +5,7 @@ permalink: games/heartbot/
 
 
 
-<div class="game-content" style="background-image: url(/image/hb_bg.PNG);">
+<div class="game-content" style="background-image: url(/image/hb_bg.png);">
 
 <div class="game-wrapper" style="background-color: black;"> 
 
