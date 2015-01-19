@@ -4,7 +4,7 @@ title: HeartBot Dev Diary
 ---
 
 {% for post in site.posts %}
-  
+  {% if post.categories contains 'hbblog' %}
 	<div class="post">
 		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 		<p class="meta">Date: {{ post.date }}</p>
@@ -12,5 +12,5 @@ title: HeartBot Dev Diary
 			{{ post.content | strip_html | truncatewords: 100 }}
 		</div>
 	</div>
- 
+  {% endif %}
 {% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Syinthetica Lab"
+title:  "Welcome to Synthetica Lab"
 date:   2015-01-14
 categories: jekyll update
 ---
