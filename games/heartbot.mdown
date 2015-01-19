@@ -11,21 +11,30 @@ permalink: games/heartbot/
 
 	
       
- 	<img src="/image/Heartbot.PNG"> <br>
+ 	<img src="/image/hb-header.png"> <br>
 
  	<p class="text-hb">
 		
-		HeartBot is a puzzle game with stealth and emotional mechanics, enhanced by a wonderful illustrated story.
+		Steampunk! Puzzle! Stealth! <br>
+		
+		<span>Help Heartbot escape from the castle! <br> Revealing the mysteries of the Magic Castle</span>
 
  	</p>
+
+ 	
+
+ 		<a href="/hbblog/"> <img class="dev-button" src="/image/DiaryButton.png"> </a> 
+
+ 	
 	
  	<div class="thumbnail">
 
  		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen1.png"> </a> 
- 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen2.png"> </a> <br> 
+ 		<a href="/image/HB_screen2.png"> <img src="/image/HB_screen2.png"> </a> <br> 
 
- 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen3.png"> </a> 
- 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen4.png"> </a> <br> 
+ 		<a href="/image/HB_screen3.png"> <img src="/image/HB_screen3.png"> </a> 
+ 		<a href="/image/HB_screen4.png"> <img src="/image/HB_screen4.png"> </a> <br> 
+
  	</div>	
 
  	<div class="stores">

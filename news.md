@@ -8,13 +8,14 @@ permalink: /news/
 <ul>
 	  
 	{% for post in site.posts %}
+
 	    
-    	<h1 class="post.title">{{ post.title }}  </h1> <h4> {{ post.date | | date_to_string }}</h4>
+    	<a href="{{ post.url }}"><h1 class="post.title">{{ post.title }}  </h1>read more</a> <h4> {{ post.date | | date_to_string }}</h4>
 
-    	{{ post.content }}
+    	 <article>{{ post.excerpt }}</article> 
 	
-		<br><br><hr> 
-
+		<hr> 
+		
 	{% endfor %}
 
 
