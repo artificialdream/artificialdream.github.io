@@ -47,7 +47,7 @@ permalink: games/heartbot/
  			</tr>	
 
  			<tr>
- 				<th></th>
+ 				<th><span style="color:red">coming soon</span></th>
  				<th><span style="color:red">coming soon</span></th>
  				<th><span style="color:red">coming soon</span></th>
  			</tr>
