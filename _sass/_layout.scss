@@ -299,6 +299,21 @@
 
 }
 
+.justify-text{
+
+    font-family: WashingtonD;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: justify;
+    padding: 30px;
+
+    > span {
+
+        font-size: 25px;
+    }
+
+}
+
 .thumbnail {
 
    > a { > img {
