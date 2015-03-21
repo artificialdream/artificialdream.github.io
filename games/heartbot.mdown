@@ -41,7 +41,7 @@ permalink: games/heartbot/
 
  		<table>
  			<tr>
- 				<th><img class="logo-store-img" src="/image/Windows_store.png"></th>
+ 				<th><a href="http://www.windowsphone.com/it-it/store/app/heartbot-escape/ba7f057f-5975-43fb-8adb-35e3fff3bb11"><img class="logo-store-img" src="/image/Windows_store.png"></th> </a>
  				<th><img class="logo-store-img" src="/image/Android_store.png"></th>
  				<th><img class="logo-store-img" src="/image/Apple_store.png"></th>	
  			</tr>	
