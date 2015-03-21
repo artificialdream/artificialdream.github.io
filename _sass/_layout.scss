@@ -5,7 +5,7 @@
 
     .site-header {
 
-        border: green solid 2px; */ 
+        border: green solid 2px; 
 
         min-height: 56px;
         height: 300px;
@@ -27,9 +27,8 @@
     .link-pages {
 
     /*    float: right; */
-        position: absol;
-        right: auto; 
-        left: auto;
+        position: absolute;
+        margin: 0 auto;
         top: 100px;
         word-spacing: 50px; 
 
