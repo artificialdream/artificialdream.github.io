@@ -16,30 +16,7 @@ permalink: games/heartbot/
  	<p class="text-hb">
 		
 		Steampunk! Puzzle! Stealth!  </p>
-		
-	<p class="justify-text">	Get ready for an engaging stealth action game, set in a wonderful Steampunk scenario.
-HeartBot is a unique character with a beating human heart that let  him feel emotions.
-Walk him outside Dr. Kaostell flying castle where is imprisoned, helping him to avoid monsters and traps, and recover his lost memory. </p>
 
- 	
-
- 	
-
- 		<a href="/hbblog/"> <img class="dev-button" src="/image/DiaryButton.png"> </a> 
-
- 	
-	
- 	<div class="thumbnail">
-
- 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen1_thumb.png"> </a> 
- 		<a href="/image/HB_screen2.png"> <img src="/image/HB_screen2_thumb.png"> </a> <br> 
-
- 		<a href="/image/HB_screen3.png"> <img src="/image/HB_screen3_thumb.png"> </a> 
- 		<a href="/image/HB_screen4.png"> <img src="/image/HB_screen4_thumb.png"> </a> <br> 
-
- 	</div>	
-
- 	<div class="stores">
 
  		<table>
  			<tr>
@@ -57,6 +34,28 @@ Walk him outside Dr. Kaostell flying castle where is imprisoned, helping him to 
  			
  		
  		</table>	
+		
+	
+ 	<div class="thumbnail">
+
+ 		<a href="/image/HB_screen1.png"> <img src="/image/HB_screen1_thumb.png"> </a> 
+ 		<a href="/image/HB_screen2.png"> <img src="/image/HB_screen2_thumb.png"> </a> <br> 
+
+ 		<a href="/image/HB_screen3.png"> <img src="/image/HB_screen3_thumb.png"> </a> 
+ 		<a href="/image/HB_screen4.png"> <img src="/image/HB_screen4_thumb.png"> </a> <br> 
+
+ 	</div>	
+
+ 	<p class="justify-text">	Get ready for an engaging stealth action game, set in a wonderful Steampunk scenario.
+HeartBot is a unique character with a beating human heart that let  him feel emotions.
+Walk him outside Dr. Kaostell flying castle where is imprisoned, helping him to avoid monsters and traps, and recover his lost memory. </p>
+
+
+ 	<a href="/hbblog/"> <img class="dev-button" src="/image/DiaryButton.png"> </a> 
+
+
+ 	<div class="stores">
+
 
  		<br><br>
  			<a class="pages" href="/"><img style="width: 250px" src="/image/logoSynthetica.png"></a>
