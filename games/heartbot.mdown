@@ -32,7 +32,7 @@ permalink: games/heartbot/
  			</tr> 			
  		
  		</table>	
-
+<hr>
 	</div>	
 	
  	<div class="thumbnail">
