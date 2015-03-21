@@ -17,7 +17,7 @@ permalink: games/heartbot/
 		
 		Steampunk! Puzzle! Stealth!  </p>
 
-
+	<div class="stores">
  		<table>
  			<tr>
  				<th><a href="http://www.windowsphone.com/it-it/store/app/heartbot-escape/ba7f057f-5975-43fb-8adb-35e3fff3bb11"><img class="logo-store-img" src="/image/Windows_store.png"></a></th>
@@ -29,12 +29,11 @@ permalink: games/heartbot/
  				<th><span style="color:green">Available</span></th>
  				<th><span style="color:red">coming soon</span></th>
  				<th><span style="color:red">coming soon</span></th>
- 			</tr>
-
- 			
+ 			</tr> 			
  		
  		</table>	
-		
+
+	</div>	
 	
  	<div class="thumbnail">
 
@@ -54,14 +53,14 @@ Walk him outside Dr. Kaostell flying castle where is imprisoned, helping him to 
  	<a href="/hbblog/"> <img class="dev-button" src="/image/DiaryButton.png"> </a> 
 
 
- 	<div class="stores">
+ 	
 
 
  		<br><br>
  			<a class="pages" href="/"><img style="width: 250px" src="/image/logoSynthetica.png"></a>
  			
 
- 	</div>
+ 	
  		
 </div>  
 
