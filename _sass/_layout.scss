@@ -5,13 +5,15 @@
 
     .site-header {
 
-        border: green solid 2px; 
+    /*    border: green solid 2px;  */
 
         min-height: 56px;
         height: 200px;
      
         max-width: 960px;
         margin: 0 auto;
+
+        text-align: center;
 
         // Positioning context for the mobile navigation icon
         position: relative;
