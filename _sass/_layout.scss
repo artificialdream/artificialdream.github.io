@@ -67,7 +67,7 @@
         height: 0 auto;
         top: 1px;
 
-        border-bottom: grey 2px solid;
+/*         border-bottom: grey 2px solid; */
        
         > p {
 
@@ -125,6 +125,7 @@
         top: 10px;
 
         border-right: grey 2px solid;
+        border-top: grey 2px solid;
 
         overflow: auto; /* insert the scroll if the div it's bigger then content */
 
